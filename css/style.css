@@ -3,3 +3,30 @@
     padding:0;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+}
+.box{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:1px solid black;
+    text-align: center;
+}
+.testo{
+    color: goldenrod;
+    font-size: 70px;
+}
+
+#uno{
+    background-color: red;
+}
+#due{
+    background-color: green;
+}
+#tre{
+    background-color: yellow;
+}
