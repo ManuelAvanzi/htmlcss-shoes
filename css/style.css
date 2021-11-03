@@ -3,24 +3,72 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Ceviche One', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 .container{
     width: 100%;
     height: 100vh;
     position:relative;
 }
+
+
+
+
+
+/* --------menu-------- */
+.menu{
+    margin:20px 20px;
+    float: right;
+}
+nav{
+    list-style: none;
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index:1000;
+}
+nav ul li{
+    width: 40px;
+    height: 40px;
+    
+    text-align: center;
+    line-height: 40px;
+
+    border:1px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    border-color: goldenrod;
+}
+a:hover{
+    
+}
+
+/* ----------box con immagini----- */
 .box{
     position:absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    border:1px solid black;
     text-align: center;
 }
 .testo{
     color: goldenrod;
-    font-size: 70px;
+    font-size: 28px;
 }
 
+/* --------------colori------------- */
 #uno{
     background-color: red;
 }
